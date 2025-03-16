@@ -1,0 +1,14 @@
+{
+    "serverURL": "wss://100.108.1.54:443/events",
+    "authURL": "https://100.108.1.54:443/core/httpproxy/v1/keycloak/realms/eda/protocol/openid-connect/token",
+    "username": "admin",
+    "password": "admin",
+    "apiBaseURL": "https://100.108.1.54/core/query/v1/eql",
+    "query": ".namespace.resources.cr.interfaces_eda_nokia_com.v1alpha1.interface.metadata",
+    "client_id": "eda",
+    "client_secret": "4vmKNyGbvZcjg0qfBwAx6M5MBU6qxgFY",
+    "messageinterval": 10
+
+  }
+
+  
