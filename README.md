@@ -36,14 +36,14 @@ Modify the variables in `config.json` to match your setup. Pay special attention
 
 ```json
 {
-    "serverURL": "wss://100.108.1.31:443/events",
-    "authURL": "https://100.108.1.31:443/core/httpproxy/v1/keycloak/realms/eda/protocol/openid-connect/token",
-    "username": "admin",
-    "password": "admin",
-    "apiBaseURL": "https://100.108.1.31:443/core/query/v1/eql",
+    "serverURL": "wss://<EDA-IP>:<EDA-PORT>/events",
+    "authURL": "https://<EDA-IP>:<EDA-PORT>/core/httpproxy/v1/keycloak/realms/eda/protocol/openid-connect/token",
+    "username": "<EDA-USERNAME>",
+    "password": "<EDA-PASWD>",
+    "apiBaseURL": "https://<EDA-IP>:<EDA-PORT>core/query/v1/eql",
     "query": ".namespace.node.srl.interface.traffic-rate where (.namespace.node.name = 'leaf1' and .namespace.node.srl.interface.name = 'ethernet-1/1')",
     "client_id": "eda",
-    "client_secret": "hxLxq16cvtrQBi0V9oANeL81N5xFun5x",
+    "client_secret": "<EDA-CLIENT>",
     "messageinterval": 0.5 
 }
 ```
